@@ -1,0 +1,30 @@
+<model-viewer src="santa_croce.glb" camera-controls ar ar-modes="scene-viewer webxr quick-look" camera-orbit="19.14deg 26.64deg 1.354m" poster="poster.png">
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.11687637718781468m 0.8474054305248115m 0.017149647212407262m" data-normal="0.39588327010008056m 0.8026669780229863m 0.44609658017778386m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mura megalitiche di epoca sannitica</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.11158203650608825m 0.81520768234537m 0.07818666228194948m" data-normal="0.12532103070633027m 0.9635179238200425m 0.23649069694222147m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Mura di epoca romana</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-0.18011160357864014m 0.8128934946023033m 0.2098358083019639m" data-normal="0.04706190844917322m 0.9988539009391594m 0.008721315941164926m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raccordo della via Latina da Venafrum a Ad Flexum</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="-0.012607731267373787m 0.8098857631384019m 0.20030563859649092m" data-normal="0.005119062036916539m 0.9999790829353494m 0.003953339808315151m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raccordo della via Latina da Venafrum a Teanum</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="0.12334700224439925m 0.8096092014739944m 0.32006196416148047m" data-normal="0.00014556425923081565m 0.9999719075391678m 0.007494193987667007m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raccordo della via Latina dal ponte Reale a S.M. della Ferrara</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="0.16201959902336255m 0.8122855262253735m -0.04054078228711383m" data-normal="0.008004983342530725m 0.9998406447052637m 0.015956360394791154m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Strada romana da Venafrum ad Aufidena</div>
+    </button><button class="Hotspot" slot="hotspot-7" data-position="0.34433974567233755m 0.813236405752705m 0.12468242918042471m" data-normal="-0.148798758796204m 0.9828825895698228m 0.10863123170262184m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Strada romana da Aesernia ad Alife</div>
+    </button><button class="Hotspot" slot="hotspot-8" data-position="-0.06244533729418705m 0.8117959672501708m 0.08509518053311772m" data-normal="0m 0.999999999999991m 1.3435886108395827e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Ipotesi ricostruttiva delle insule della colonia</div>
+    </button><button class="Hotspot" slot="hotspot-9" data-position="0.30062315939186535m 0.8123590682471085m -0.07281008064766917m" data-normal="0.003419224335777377m 0.9995290277892335m 0.03049641801345442m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Raccordo di ponte Latrone</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
